@@ -22,6 +22,8 @@ if (isset($update)) {
     $name = $message->chat->first_name;
     $user_name = $message->chat->username;
     $photo = $_ENV['PHOTO_ADDRESS'];
+    $audio = $_ENV['AUDIO_ADDRESS'];
+    $document = $_ENV['DOCUMENT_ADDRESS'];
 }
 
 $txt = trim($txt); // Remove spaces
